@@ -20,7 +20,7 @@ const Teachers: React.FC<TeachersProps> = ({ language }) => {
       languagesAr: ["العربية", "الإنجليزية", "الأردية"],
       languagesEn: ["Arabic", "English", "Urdu"],
       image: <img 
-  src="/Teacher.jpeg" 
+  src="/Teacher.png" 
   alt="Ustadh Name" 
   className="w-48 h-48 object-cover rounded-xl"
 />
