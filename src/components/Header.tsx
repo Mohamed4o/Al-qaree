@@ -59,7 +59,7 @@ const Header: React.FC<HeaderProps> = ({ currentSection, setCurrentSection, lang
             <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-red-700 rounded-lg flex items-center justify-center">
               <span className="text-white text-xl font-bold arabic-font">
               
-              <img src="/Logo.png" alt="Academy Logo" className="h-16 w-auto" />
+              <img src="/Logo.png" alt="Academy Logo" className="h-14 w-auto" />
 
               
               
