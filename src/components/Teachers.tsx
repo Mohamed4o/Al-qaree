@@ -7,8 +7,8 @@ interface TeachersProps {
 const Teachers: React.FC<TeachersProps> = ({ language }) => {
   const teachers = [
     {
-      nameAr: "الشيخ أحمد المصري",
-      nameEn: "Sheikh Ahmed Al-Masri",
+      nameAr: "القارئ أنس البرقي",
+      nameEn: "AL-Qaree Anas Al-Barqy",
       titleAr: "رئيس الأكاديمية",
       titleEn: "Head of Academy",
       specializationAr: "حفظ القرآن والتجويد",
@@ -19,7 +19,12 @@ const Teachers: React.FC<TeachersProps> = ({ language }) => {
       qualificationsEn: ["PhD in Islamic Studies", "Certified Qari", "Al-Azhar Graduate"],
       languagesAr: ["العربية", "الإنجليزية", "الأردية"],
       languagesEn: ["Arabic", "English", "Urdu"],
-      image: "👨‍🏫"
+      image: <img 
+  src="/Teacher.jpeg" 
+  alt="Ustadh Name" 
+  className="w-48 h-48 object-cover rounded-xl"
+/>
+
     },
     {
       nameAr: "الأستاذة فاطمة السوري",
