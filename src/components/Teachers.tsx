@@ -22,7 +22,7 @@ const Teachers: React.FC<TeachersProps> = ({ language }) => {
       image: <img 
   src="/Teacher.png" 
   alt="Ustadh Name" 
-  className="w-48 h-48 object-cover rounded-xl"
+  className="w-25 h-25 object-cover rounded-xl"
 />
 
     },
