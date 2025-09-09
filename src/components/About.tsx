@@ -13,7 +13,7 @@ const About: React.FC<AboutProps> = ({ language }) => {
           <div className="w-32 h-32 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center mx-auto mb-6 border-4 border-white/20">
             <span className="text-white text-4xl font-bold arabic-font">
             
-            <img src="/Logo.png" alt="Academy Logo" className="h-16 w-auto" />
+            <img src="/Logo.jpeg" alt="Academy Logo" className="h-16 w-auto" />
 
             </span>
           </div>
